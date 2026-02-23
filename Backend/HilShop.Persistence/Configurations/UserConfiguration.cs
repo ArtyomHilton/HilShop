@@ -1,6 +1,5 @@
 ﻿using HilShop.Domain.Entities.User;
 using HilShop.Domain.Entities.User.ValueObjects;
-
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -10,6 +9,8 @@ internal class UserConfiguration : IEntityTypeConfiguration<User>
 {
     public void Configure(EntityTypeBuilder<User> builder)
     {
+        builder.ToTable(nameof(User));
+
         builder.HasKey(x => x.Id);
 
         builder.Property(x => x.Id)

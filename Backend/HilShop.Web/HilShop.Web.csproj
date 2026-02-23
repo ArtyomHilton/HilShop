@@ -6,4 +6,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HilShop.Application\HilShop.Application.csproj" />
+    <ProjectReference Include="..\HilShop.Infrastructure\HilShop.Infrastructure.csproj" />
+    <ProjectReference Include="..\HilShop.Persistence\HilShop.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
