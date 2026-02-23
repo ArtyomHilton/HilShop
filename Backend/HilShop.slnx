@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/solution-items/">
+    <File Path="../.gitignore" />
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="HilShop.Application/HilShop.Application.csproj" />
+  <Project Path="HilShop.Domain/HilShop.Domain.csproj" />
+  <Project Path="HilShop.Infrastructure/HilShop.Infrastructure.csproj" />
+  <Project Path="HilShop.Persistence/HilShop.Persistence.csproj" />
+  <Project Path="HilShop.Web/HilShop.Web.csproj" />
+</Solution>
